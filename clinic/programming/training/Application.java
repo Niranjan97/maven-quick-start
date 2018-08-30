@@ -1,6 +1,7 @@
 package clinic.programming.training;
 import java.util.ArrayList;
 import java.util.List;
+import org.apache.commons.lang3.StringUtils;
 public class Application {
     
 		public int countwords(String words)
@@ -27,7 +28,7 @@ public class Application {
     	System.out.println ("Starting Application");
 		Application obj = new Application();
 		obj.greet();
-		int count =app.countwords("I have four words");
+		int count =obj.countwords("I have four words");
 		System.out.println("Word Count: "+ count);
     }
 }
